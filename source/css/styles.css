@@ -438,6 +438,9 @@ section:nth-child(3){
     align-items: center;
     gap: 3em;
     box-shadow: 9px 11px 8.7px 0px rgba(0, 0, 0, 0.30);
+    animation: reveal auto linear both;
+    animation-timeline: view();
+    animation-range: entry 30% cover 40%;
 }
 
 .hb-img{
